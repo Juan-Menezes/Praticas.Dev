@@ -4,8 +4,8 @@
   "description": "Repositório de projetos simples e exercícios de programação.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "dev": "next dev"
+    },
   "author": "",
   "license": "MIT",
   "dependencies": {
