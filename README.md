@@ -50,6 +50,7 @@ O projeto evolui de uma aplicação web simples para uma estrutura backend com *
 * Identificação e correção de vazamento de conexões
 * Consulta de informações internas do PostgreSQL
 * Versionamento da estrutura do banco de dados
+* Utilização da plataforma Neon para hospedagem do banco de dados PostgreSQL
 * Criação e execução de **Database Migrations**
 * Migrations via linha de comando
 * Migrations executadas através de API
@@ -185,6 +186,7 @@ O projeto evolui de uma aplicação web simples para uma estrutura backend com *
 | **Docker**               | Ambiente e infraestrutura local |
 | **Docker Compose**       | Orquestração do banco local     |
 | **node-postgres (`pg`)** | Comunicação com PostgreSQL      |
+| **Neon**                 | Hospedagem do banco de dados    |
 | **node-pg-migrate**      | Database migrations             |
 | **Jest**                 | Testes automatizados            |
 | **Prettier**             | Formatação e padronização       |
@@ -472,7 +474,7 @@ O foco está na evolução contínua do projeto e na aplicação de práticas qu
 JavaScript • Node.js • Next.js • APIs REST • HTTP • JSON • MVC
 
 **Banco de Dados:**
-PostgreSQL • SQL • Queries parametrizadas • Database Migrations • Connection Management
+PostgreSQL • SQL • Neon • Queries parametrizadas • Database Migrations • Connection Management
 
 **Testes:**
 Jest • Testes de integração • TDD • Red/Green/Refactor • Testes de API
